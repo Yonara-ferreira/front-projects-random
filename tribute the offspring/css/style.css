@@ -62,3 +62,19 @@
      border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
 }
+.biography-container p {
+  font-family: Arial, sans-serif; 
+  font-size: 1.1em; 
+  text-align: center;
+  font-weight: normal; 
+  max-width: 80%; 
+  line-height: 1.6; 
+  margin: 15px 0; 
+  padding: 10px; 
+}
+@media (max-width: 768px) {
+    .biography-container p {
+      font-size: 1em; /* Reduz o tamanho da fonte em telas menores */
+      max-width: 90%; /* Aumenta a largura máxima do parágrafo em telas menores */
+    }
+}
