@@ -72,9 +72,3 @@
   margin: 15px 0; 
   padding: 10px; 
 }
-@media (max-width: 768px) {
-    .biography-container p {
-      font-size: 1em; /* Reduz o tamanho da fonte em telas menores */
-      max-width: 90%; /* Aumenta a largura máxima do parágrafo em telas menores */
-    }
-}
