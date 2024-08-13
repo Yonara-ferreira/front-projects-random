@@ -15,12 +15,14 @@
         </div>
         <div class="form-container">
             <div class="form-header">
-                <p>Formulario Inicial</p>
+                <p>Formulário</p>
             </div>
-            <form>
-                <div class="form-body">
-                    <h1 id="titleH2">Venda de automoveis!</h1>
-                    <p>Descreva as caracteristicas e marque os opcionais</p>
+            <div class="form-body">
+                <h1 class="form-title">Venda fácil seu carro!</h1>
+                <p>
+                    Descreva as características e marque os opcionais que ele possui
+                </p>
+                <form>
                     <div class="box-input">
                         <label for="title">
                             Titulo de anuncio <span class="required-field">*</span>
@@ -32,14 +34,14 @@
 
                     <div class="box-input">
                         <label for="price">
-                            Preço*: <span class="required-field">*</span>
+                            Preço: <span class="required-field">*</span>
                             <input type="number" name="price" id="price" class="block" placeholder="Defina o valor"
                                 required>
                         </label>
                     </div>
                     <div class="box-input">
                         <label for="description">
-                            Preço*: <span class="required-field">*</span>
+                            Detalhes: <span class="required-field">*</span>
                             <textarea name="description" id="description" class="block"
                                 placeholder="Detalhes do veículo"></textarea>
                         </label>
@@ -47,14 +49,14 @@
 
                     <div class="box-input">
                         <label for="brand">
-                            Marca do veículo:*<span class="required-field">*</span>
+                            Marca do veículo:<span class="required-field">*</span>
                             <input type="text" name="brand" id="brand" class="block" placeholder="marca do veiculo"
                                 required>
                         </label>
                     </div>
                     <div class="box-input">
                         <label for="model">
-                            Modelo do veículo*:<span class="required-field">*</span>
+                            Modelo do veículo:<span class="required-field">*</span>
                             <input type="text" name="model" id="model" class="block" placeholder="modelo do veiculo"
                                 required>
                         </label>
@@ -125,50 +127,10 @@
 
                     <input type="submit" value="Enviar">
 
-                </div>
+            </div>
             </form>
         </div>
     </div>
 </body>
 
 </html>
-<!-- 
-<form action="register.php" method="get">
-    <h2 id="titleH2">Venda de automoveis!</h2>
-    <div class="title">
-        <label> Titulo do anuncio*:</label>
-        <input type="text">
-    </div>
-    <div class="price">
-        <label> Preço*:</label>
-        <input type="text">
-    </div>
-    <div class="description">
-        <label> Descrição:</label>
-        <textarea id="description" name="w3review" rows="4" cols="50">
-        </textarea>
-    </div>
-    <div class="brand">
-        <label> Marca*:</label>
-        <input type="text">
-    </div>
-    <div class="model">
-        <label> Modelo*:</label>
-        <input type="text" placeholder="Modelo do veiculo">
-    </div>
-    <div class="mileage">
-        <label> quilometragem*:</label>
-        <input type="text" placeholder="Diga a kilometragem do veiculo">
-    </div>
-    <div class="dataCompra">
-        <label> Data de compra:</label>
-        <input type="date" id="dataCompra" name="dataCompra">
-    </div>
-    <div class="tipoCambio">
-        <label for=""> Tipo de Câmbio:</label>
-        <input type="checkbox" id="tpManual" name="vehicle1" value="Bike">
-        <label for="tpManual"> Manual</label><br>
-        <input type="checkbox" id="tpAutomatico" name="vehicle2" value="Car">
-        <label for="tpAutomatico"> Automático</label><br>
-    </div>
-</form> -->

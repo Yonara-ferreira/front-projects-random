@@ -39,7 +39,7 @@ textarea{
 .header{
     height: 160px;
     padding: 20px;
-    background-color: aquamarine;
+    background-color: #673ab7;
 }
 .header h3 {
     color:black;
@@ -63,5 +63,40 @@ textarea {
     padding: 10px 5px;
 
 }
+
+/* form header */
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 50px;
+}
+
+.form-header p {
+    color: #673ab7;
+    border-radius: 2px solid #673ab7 ;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 45px;
+    height: 45px;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.form-body {
+    padding: 30px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.required-field {
+    color: red;
+}
+
+
 
 
